@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+float secToHours(int seconds){
+    return seconds / 3600.;
+}
+
+int main() {
+    printf("hodin: %.3f", secToHours(4879));
+    return 0;
+}
